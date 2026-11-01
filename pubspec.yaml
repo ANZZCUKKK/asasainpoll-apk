@@ -1,0 +1,35 @@
+name: asasain_poll
+description: AsasainPoll - 8 Ball Pool Tool
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.10.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0
+  shared_preferences: ^2.2.0
+  permission_handler: ^11.0.1
+  google_fonts: ^6.1.0
+  url_launcher: ^6.2.1
+  flutter_svg: ^2.0.9
+  cupertino_icons: ^1.0.2
+  package_info_plus: ^5.0.1
+  device_info_plus: ^9.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: JetBrains
+      fonts:
+        - asset: fonts/JetBrainsMono-Regular.ttf
